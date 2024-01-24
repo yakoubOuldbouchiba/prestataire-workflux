@@ -1,0 +1,39 @@
+{
+  "components": [
+    {
+      "label": "Structure",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1vnnnxp",
+        "columns": null
+      },
+      "id": "Field_0g3yudb",
+      "key": "structure",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Fournisseur",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1vnnnxp",
+        "columns": null
+      },
+      "id": "Field_0jz5hla",
+      "key": "fournisseur",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default",
+  "id": "FORM_NEW_OPI",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.4.0",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.19.0"
+  },
+  "schemaVersion": 14
+}

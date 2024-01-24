@@ -1,0 +1,109 @@
+{
+  "components": [
+    {
+      "label": "Structure",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1vnnnxp",
+        "columns": null
+      },
+      "id": "Field_0g3yudb",
+      "key": "structure",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Fournisseur",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1vnnnxp",
+        "columns": null
+      },
+      "id": "Field_0jz5hla",
+      "key": "fournisseur",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Devise",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0e89idk",
+        "columns": null
+      },
+      "id": "Field_1fnviwp",
+      "key": "devise"
+    },
+    {
+      "label": "Pièces Justificatives jointes ",
+      "type": "textarea",
+      "layout": {
+        "row": "Row_0jwgu70",
+        "columns": null
+      },
+      "id": "Field_1mwfoyq",
+      "key": "pieces"
+    },
+    {
+      "label": "En règlement de",
+      "type": "textarea",
+      "layout": {
+        "row": "Row_15svy75",
+        "columns": null
+      },
+      "id": "Field_1bqp8ae",
+      "key": "en_reglement"
+    },
+    {
+      "label": "Montant Brut",
+      "type": "number",
+      "layout": {
+        "row": "Row_1lf4vyp",
+        "columns": null
+      },
+      "id": "Field_0xazmac",
+      "key": "montant_brut"
+    },
+    {
+      "label": "Montant Pénalité",
+      "type": "number",
+      "layout": {
+        "row": "Row_1lf4vyp",
+        "columns": null
+      },
+      "id": "Field_07igtwy",
+      "key": "montant_penalite"
+    },
+    {
+      "label": "Montant Retenue",
+      "type": "number",
+      "layout": {
+        "row": "Row_1lf4vyp",
+        "columns": null
+      },
+      "id": "Field_1uixfb0",
+      "key": "montant_retenue"
+    },
+    {
+      "label": "Montant TVA",
+      "type": "number",
+      "layout": {
+        "row": "Row_1lf4vyp",
+        "columns": null
+      },
+      "id": "Field_1q7wxqj",
+      "key": "montant_tva"
+    }
+  ],
+  "type": "default",
+  "id": "FORM_EDIT_OPI",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.4.0",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.19.0"
+  },
+  "schemaVersion": 14
+}

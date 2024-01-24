@@ -1,0 +1,34 @@
+{
+  "components": [
+    {
+      "label": "IS Valid ",
+      "type": "checkbox",
+      "layout": {
+        "row": "Row_1oceksd",
+        "columns": null
+      },
+      "id": "Field_0o9sfjb",
+      "key": "is_valid",
+      "defaultValue": false
+    },
+    {
+      "label": "Signataire",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0o9qn6y",
+        "columns": null
+      },
+      "id": "Field_0b5hvag",
+      "key": "signataire"
+    }
+  ],
+  "type": "default",
+  "id": "FORM_VALIDATE_OPI",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.4.0",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.19.0"
+  },
+  "schemaVersion": 14
+}
